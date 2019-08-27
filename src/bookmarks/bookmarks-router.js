@@ -29,7 +29,6 @@ bookmarksRouter
         .send('Invalid data');
     }
 
-    // get an id
     const id = uuid();
 
     const bookmark = {
